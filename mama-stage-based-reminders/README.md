@@ -8,5 +8,5 @@ Conversation configuration:
 
 Raw URLs:
 
-* Javascript: [Raw](https://raw.githubusercontent.com/praekelt/mama-sms/develop/lib/go-mama-sms.js)
+* Javascript (go-mama-sms.js): [Raw](https://raw.githubusercontent.com/praekelt/mama-sms/develop/lib/go-mama-sms.js)
 * Configuration: [Raw](https://raw.githubusercontent.com/praekelt/go-equity-nation/mama-stage-based-reminders/config.json)
