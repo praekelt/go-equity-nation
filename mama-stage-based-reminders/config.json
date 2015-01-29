@@ -1,0 +1,19 @@
+{
+  "skip_hiv_messages": true,
+  "custom_opening_copy": "Welcome to MAMA on Equity World. For free SMSes about your pregnancy, we need to ask you 3 questions.",
+  "stk_fake_exit": true,
+  "user_store": "mama_sms",
+  "default_language" : "english",
+  "skip_holodeck": 1,
+  "extra_sms_stat_keys": [],
+  "sequential_send_keys": [
+    "b7b3f55ab9824eb39ac6ae81ba47908c",
+    "f6cca961d6924ddd8ba28cee9bdc1162",
+    "93fe116369c04eeb97148bbe1dc76da1"
+  ],
+  "sms_tag": [
+    "equity_nation_sms_kenya",
+    "254731222093"
+  ],
+  "welcome_sms_copy": ""
+}

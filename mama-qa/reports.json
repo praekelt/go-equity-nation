@@ -1,0 +1,200 @@
+{
+  "layout": [
+    {
+      "type": "diamondash.widgets.lvalue.LValueWidget",
+      "time_range": "30d",
+      "name": "MAMA Registered Users",
+      "target": {
+        "metric_type": "account",
+        "store": "mama_sms",
+        "name": "qa.mama_sbm_registered_users",
+        "aggregator": "max"
+      }
+    },
+    {
+      "type": "diamondash.widgets.lvalue.LValueWidget",
+      "time_range": "30d",
+      "name": "MAMA Unique MSISDNs",
+      "target": {
+        "metric_type": "account",
+        "store": "mama_sms",
+        "name": "qa.mama_sbm_ussd.uniques",
+        "aggregator": "max"
+      }
+    },
+    {
+      "type": "diamondash.widgets.lvalue.LValueWidget",
+      "time_range": "30d",
+      "name": "MAMA SMS Messages Sent - Monday",
+      "target": {
+        "metric_type": "account",
+        "store": "mama_sms",
+        "name": "qa.mama_sbm_sms_monday.outbound",
+        "aggregator": "max"
+      }
+    },
+    {
+      "type": "diamondash.widgets.lvalue.LValueWidget",
+      "time_range": "30d",
+      "name": "MAMA SMS Messages Sent - Wednesday",
+      "target": {
+        "metric_type": "account",
+        "store": "mama_sms",
+        "name": "qa.mama_sbm_sms_wednesday.outbound",
+        "aggregator": "max"
+      }
+    },
+    {
+      "type": "diamondash.widgets.lvalue.LValueWidget",
+      "time_range": "30d",
+      "name": "MAMA SMS Messages Sent - Friday",
+      "target": {
+        "metric_type": "account",
+        "store": "mama_sms",
+        "name": "qa.mama_sbm_sms_friday.outbound",
+        "aggregator": "max"
+      }
+    },
+    "new_row",
+    {
+      "type": "diamondash.widgets.graph.GraphWidget",
+      "name": "MAMA USSD Messages Sent & Received",
+      "width": 12,
+      "time_range": "30d",
+      "bucket_size": "1d",
+      "metrics": [
+        {
+          "name": "Messages Received",
+          "target": {
+            "metric_type": "account",
+            "store": "mama_sms",
+            "name": "qa.mama_sbm_ussd.inbound",
+            "aggregator": "max"
+          }
+        },
+        {
+          "name": "Messages Sent",
+          "target": {
+            "metric_type": "account",
+            "store": "mama_sms",
+            "name": "qa.mama_sbm_ussd.outbound",
+            "aggregator": "max"
+          }
+        }
+      ]
+    },
+    "new_row",
+    {
+      "type": "diamondash.widgets.lvalue.LValueWidget",
+      "time_range": "30d",
+      "name": "Wings To Fly (SMS) Unique MSISDNs",
+      "target": {
+        "metric_type": "account",
+        "store": "mama_sms",
+        "name": "qa.eneza_sms.uniques",
+        "aggregator": "max"
+      }
+    },
+    {
+      "type": "diamondash.widgets.lvalue.LValueWidget",
+      "time_range": "30d",
+      "name": "Wings To Fly (SMS) Messages Sent",
+      "target": {
+        "metric_type": "account",
+        "store": "mama_sms",
+        "name": "qa.eneza_sms.outbound",
+        "aggregator": "max"
+      }
+    },
+    {
+      "type": "diamondash.widgets.lvalue.LValueWidget",
+      "time_range": "30d",
+      "name": "Wings To Fly (SMS) Messages Received",
+      "target": {
+        "metric_type": "account",
+        "store": "mama_sms",
+        "name": "qa.eneza_sms.inbound",
+        "aggregator": "max"
+      }
+    },
+    {
+      "type": "diamondash.widgets.lvalue.LValueWidget",
+      "time_range": "30d",
+      "name": "Wings To Fly (USSD) Unique MSISDNs",
+      "target": {
+        "metric_type": "account",
+        "store": "mama_sms",
+        "name": "qa.eneza_ussd.uniques",
+        "aggregator": "max"
+      }
+    },
+    "new_row",
+    {
+      "type": "diamondash.widgets.graph.GraphWidget",
+      "name": "Wings To Fly (USSD) Messages Sent & Received",
+      "width": 12,
+      "time_range": "30d",
+      "bucket_size": "1d",
+      "metrics": [
+        {
+          "name": "Messages Received",
+          "target": {
+            "metric_type": "account",
+            "store": "mama_sms",
+            "name": "qa.eneza_ussd.inbound",
+            "aggregator": "max"
+          }
+        },
+        {
+          "name": "Messages Sent",
+          "target": {
+            "metric_type": "account",
+            "store": "mama_sms",
+            "name": "qa.eneza_ussd.outbound",
+            "aggregator": "max"
+          }
+        }
+      ]
+    },
+    "new_row",
+    {
+      "type": "diamondash.widgets.lvalue.LValueWidget",
+      "time_range": "30d",
+      "name": "Wikipedia Unique MSISDNs",
+      "target": {
+        "metric_type": "account",
+        "store": "mama_sms",
+        "name": "qa.wikipedia.uniques",
+        "aggregator": "max"
+      }
+    },
+    "new_row",
+    {
+      "type": "diamondash.widgets.graph.GraphWidget",
+      "name": "Wikipedia Messages Sent & Received",
+      "width": 12,
+      "time_range": "30d",
+      "bucket_size": "1d",
+      "metrics": [
+        {
+          "name": "Messages Received",
+          "target": {
+            "metric_type": "account",
+            "store": "mama_sms",
+            "name": "qa.wikipedia.inbound",
+            "aggregator": "max"
+          }
+        },
+        {
+          "name": "Messages Sent",
+          "target": {
+            "metric_type": "account",
+            "store": "mama_sms",
+            "name": "qa.wikipedia.outbound",
+            "aggregator": "max"
+          }
+        }
+      ]
+    }
+  ]
+}
