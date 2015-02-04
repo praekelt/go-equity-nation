@@ -1,7 +1,7 @@
 {
   "name": "mama_sms_qa",
   "user_store": "mama_sms_qa",
-  "metric_store": "mama_sms_qa",
+  "metric_store": "mama_sms",
   "metric_prefix": "qa",
   "skip_hiv_messages": true,
   "custom_opening_copy": "Welcome to MAMA. For free SMSes about your pregnancy, we need to ask you 3 questions.",
