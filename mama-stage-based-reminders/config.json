@@ -1,10 +1,14 @@
 {
+  "name": "mama_sms",
+  "user_store": "mama_sms",
+  "metric_store": "mama_sms",
+  "metric_prefix": "prd",
   "skip_hiv_messages": true,
   "custom_opening_copy": "Welcome to MAMA on Equity World. For free SMSes about your pregnancy, we need to ask you 3 questions.",
   "stk_fake_exit": true,
-  "user_store": "mama_sms",
   "default_language" : "english",
   "skip_holodeck": 1,
+  "welcome_sms_copy": "",
   "extra_sms_stat_keys": [],
   "sequential_send_keys": [
     "b7b3f55ab9824eb39ac6ae81ba47908c",
@@ -15,5 +19,52 @@
     "equity_nation_sms_kenya",
     "254731222093"
   ],
-  "welcome_sms_copy": ""
+  "conversation_metrics": [
+    {
+      "conversation_name": "MAMA Staged Based Reminders - Monday",
+      "conversation_key": "b7b3f55ab9824eb39ac6ae81ba47908c",
+      "metric_prefix": "mama_sbm_sms_monday"
+    },
+    {
+      "conversation_name": "MAMA Staged Based Reminders - Wednesday",
+      "conversation_key": "f6cca961d6924ddd8ba28cee9bdc1162",
+      "metric_prefix": "mama_sbm_sms_wednesday"
+    },
+    {
+      "conversation_name": "MAMA Staged Based Reminders - Friday",
+      "conversation_key": "93fe116369c04eeb97148bbe1dc76da1",
+      "metric_prefix": "mama_sbm_sms_friday"
+    },
+    {
+      "conversation_name": "Wikipedia",
+      "conversation_key": "4eaa2323a3174fd08499133a3331c14f",
+      "metric_prefix": "wikipedia"
+    },
+    {
+      "conversation_name": "MAMA USSD",
+      "conversation_key": "3287a6dccd73406ba516dd25b4604de5",
+      "metric_prefix": "mama_sbm_ussd"
+    },
+    {
+      "conversation_name": "Financial Literacy",
+      "conversation_key": "7d265df84b464cec912c40536f281fa7",
+      "metric_prefix": "finlit"
+    },
+    {
+      "conversation_name": "Wings To Fly USSD",
+      "conversation_key": "00f9bde384ad41e3b75c3f83f8cadd10",
+      "metric_prefix": "eneza_ussd"
+    },
+    {
+      "conversation_name": "Wings To Fly SMS",
+      "conversation_key": "726c3c1e46cf4b37808c6bedb449be4e",
+      "metric_prefix": "eneza_sms"
+    }
+  ],
+  "group_metrics": [
+    {
+      "group_name": "MAMA SMS recipients (english)",
+      "metric_prefix": "mama_sbm_registered_users"
+    }
+  ]
 }
