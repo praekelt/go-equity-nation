@@ -10,5 +10,5 @@ Conversation configuration:
 Raw URLs:
 
 * Javascript (go-app-default.js): [Raw](https://raw.githubusercontent.com/praekelt/mama-sms/develop/go-app-default.js)
-* Configuration: [Raw](https://raw.githubusercontent.com/praekelt/go-equity-nation/mama-qa/config.json)
-* Reports: [Raw](https://raw.githubusercontent.com/praekelt/go-equity-nation/mama-qa/reports.json)
+* Configuration: [Raw](https://raw.githubusercontent.com/praekelt/go-equity-nation/develop/mama-qa/config.json)
+* Reports: [Raw](https://raw.githubusercontent.com/praekelt/go-equity-nation/develop/mama-qa/reports.json)
