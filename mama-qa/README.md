@@ -1,6 +1,13 @@
 # mama-qa
 MAMA Javascript sandbox application for QA.
 
+Notes:
+
+* The config has metric firing disabled (``skip_holodeck: true``) because the
+  MAMA Javascript sandbox uses a fixed kv store key to check whether metrics
+  have been published that day. ``skip_holodeck`` would be more accurately
+  named ``skip_metrics`` since holodeck is no longer used by it.
+
 Conversation configuration:
 
 * [Javascript](https://github.com/praekelt/mama-sms/)
