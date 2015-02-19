@@ -7,7 +7,6 @@
   "custom_opening_copy": "Welcome to MAMA. For free SMSes about your pregnancy, we need to ask you 3 questions.",
   "stk_fake_exit": true,
   "default_language": "english",
-  "skip_holodeck": 1,
   "welcome_sms_copy": "",
   "extra_sms_stat_keys": [],
   "conversation_metrics": [
