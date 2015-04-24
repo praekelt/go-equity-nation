@@ -14,7 +14,7 @@
     {
       "type": "diamondash.widgets.lvalue.LValueWidget",
       "time_range": "30d",
-      "name": "MAMA Unique MSISDNs",
+      "name": "MAMA Unique Numbers",
       "target": {
         "metric_type": "account",
         "store": "mama_sms",
@@ -87,7 +87,7 @@
     {
       "type": "diamondash.widgets.lvalue.LValueWidget",
       "time_range": "30d",
-      "name": "Wings To Fly (SMS) Unique MSISDNs",
+      "name": "Wings To Fly (SMS) Unique Numbers",
       "target": {
         "metric_type": "account",
         "store": "mama_sms",
@@ -120,7 +120,7 @@
     {
       "type": "diamondash.widgets.lvalue.LValueWidget",
       "time_range": "30d",
-      "name": "Wings To Fly (USSD) Unique MSISDNs",
+      "name": "Wings To Fly (USSD) Unique Numbers",
       "target": {
         "metric_type": "account",
         "store": "mama_sms",
@@ -160,7 +160,7 @@
     {
       "type": "diamondash.widgets.lvalue.LValueWidget",
       "time_range": "30d",
-      "name": "Wikipedia Unique MSISDNs",
+      "name": "Wikipedia Unique Numbers",
       "target": {
         "metric_type": "account",
         "store": "mama_sms",
