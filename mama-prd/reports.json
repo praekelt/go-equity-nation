@@ -57,144 +57,87 @@
     },
     "new_row",
     {
-      "type": "diamondash.widgets.graph.GraphWidget",
-      "name": "MAMA USSD Messages Sent & Received",
+      "type": "diamondash.widgets.histogram.HistogramWidget",
+      "name": "MAMA Uniques (USSD)",
       "width": 12,
-      "time_range": "30d",
-      "bucket_size": "1d",
-      "metrics": [
-        {
-          "name": "Messages Received",
-          "target": {
-            "metric_type": "account",
-            "store": "mama_sms",
-            "name": "prd.mama_sbm_ussd.inbound",
-            "aggregator": "max"
-          }
-        },
-        {
-          "name": "Messages Sent",
-          "target": {
-            "metric_type": "account",
-            "store": "mama_sms",
-            "name": "prd.mama_sbm_ussd.outbound",
-            "aggregator": "max"
-          }
-        }
-      ]
-    },
-    "new_row",
-    {
-      "type": "diamondash.widgets.lvalue.LValueWidget",
-      "time_range": "30d",
-      "name": "Wings To Fly (SMS) Unique Numbers",
+      "time_range": "56d",
+      "bucket_size": "7d",
       "target": {
         "metric_type": "account",
         "store": "mama_sms",
-        "name": "prd.eneza_sms.uniques",
-        "aggregator": "max"
-      }
-    },
-    {
-      "type": "diamondash.widgets.lvalue.LValueWidget",
-      "time_range": "30d",
-      "name": "Wings To Fly (SMS) Messages Sent",
-      "target": {
-        "metric_type": "account",
-        "store": "mama_sms",
-        "name": "prd.eneza_sms.outbound",
-        "aggregator": "max"
-      }
-    },
-    {
-      "type": "diamondash.widgets.lvalue.LValueWidget",
-      "time_range": "30d",
-      "name": "Wings To Fly (SMS) Messages Received",
-      "target": {
-        "metric_type": "account",
-        "store": "mama_sms",
-        "name": "prd.eneza_sms.inbound",
-        "aggregator": "max"
-      }
-    },
-    {
-      "type": "diamondash.widgets.lvalue.LValueWidget",
-      "time_range": "30d",
-      "name": "Wings To Fly (USSD) Unique Numbers",
-      "target": {
-        "metric_type": "account",
-        "store": "mama_sms",
-        "name": "prd.eneza_ussd.uniques",
+        "name": "prd.mama_sbm_ussd.uniques",
         "aggregator": "max"
       }
     },
     "new_row",
     {
-      "type": "diamondash.widgets.graph.GraphWidget",
-      "name": "Wings To Fly (USSD) Messages Sent & Received",
+      "type": "diamondash.widgets.histogram.HistogramWidget",
+      "name": "MAMA Messages Sent (USSD)",
       "width": 12,
-      "time_range": "30d",
-      "bucket_size": "1d",
-      "metrics": [
-        {
-          "name": "Messages Received",
-          "target": {
-            "metric_type": "account",
-            "store": "mama_sms",
-            "name": "prd.eneza_ussd.inbound",
-            "aggregator": "max"
-          }
-        },
-        {
-          "name": "Messages Sent",
-          "target": {
-            "metric_type": "account",
-            "store": "mama_sms",
-            "name": "prd.eneza_ussd.outbound",
-            "aggregator": "max"
-          }
-        }
-      ]
-    },
-    "new_row",
-    {
-      "type": "diamondash.widgets.lvalue.LValueWidget",
-      "time_range": "30d",
-      "name": "Wikipedia Unique Numbers",
+      "time_range": "56d",
+      "bucket_size": "7d",
       "target": {
         "metric_type": "account",
         "store": "mama_sms",
-        "name": "prd.wikipedia.uniques",
+        "name": "prd.mama_sbm_ussd.outbound",
         "aggregator": "max"
       }
     },
     "new_row",
     {
-      "type": "diamondash.widgets.graph.GraphWidget",
-      "name": "Wikipedia Messages Sent & Received",
+      "type": "diamondash.widgets.histogram.HistogramWidget",
+      "name": "MAMA Messages Received (USSD)",
       "width": 12,
-      "time_range": "30d",
-      "bucket_size": "1d",
-      "metrics": [
-        {
-          "name": "Messages Received",
-          "target": {
-            "metric_type": "account",
-            "store": "mama_sms",
-            "name": "prd.wikipedia.inbound",
-            "aggregator": "max"
-          }
-        },
-        {
-          "name": "Messages Sent",
-          "target": {
-            "metric_type": "account",
-            "store": "mama_sms",
-            "name": "prd.wikipedia.outbound",
-            "aggregator": "max"
-          }
-        }
-      ]
+      "time_range": "56d",
+      "bucket_size": "7d",
+      "target": {
+        "metric_type": "account",
+        "store": "mama_sms",
+        "name": "prd.mama_sbm_ussd.inbound",
+        "aggregator": "max"
+      }
+    },
+    "new_row",
+    {
+      "type": "diamondash.widgets.histogram.HistogramWidget",
+      "name": "MAMA SMSes Sent (Mondays)",
+      "width": 12,
+      "time_range": "56d",
+      "bucket_size": "7d",
+      "target": {
+        "metric_type": "account",
+        "store": "mama_sms",
+        "name": "prd.mama_sbm_sms_monday.outbound",
+        "aggregator": "max"
+      }
+    },
+    "new_row",
+    {
+      "type": "diamondash.widgets.histogram.HistogramWidget",
+      "name": "MAMA SMSes Sent (Wednesdays)",
+      "width": 12,
+      "time_range": "56d",
+      "bucket_size": "7d",
+      "target": {
+        "metric_type": "account",
+        "store": "mama_sms",
+        "name": "prd.mama_sbm_sms_wednesday.outbound",
+        "aggregator": "max"
+      }
+    },
+    "new_row",
+    {
+      "type": "diamondash.widgets.histogram.HistogramWidget",
+      "name": "MAMA SMSes Sent (Fridays)",
+      "width": 12,
+      "time_range": "56d",
+      "bucket_size": "7d",
+      "target": {
+        "metric_type": "account",
+        "store": "mama_sms",
+        "name": "prd.mama_sbm_sms_friday.outbound",
+        "aggregator": "max"
+      }
     }
   ]
 }
