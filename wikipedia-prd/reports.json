@@ -3,7 +3,7 @@
     {
       "type": "diamondash.widgets.lvalue.LValueWidget",
       "time_range": "30d",
-      "name": "Uniques Seen",
+      "name": "Latest Unique Numbers",
       "target": {
         "metric_type": "account",
         "store": "mama_sms",
@@ -14,7 +14,7 @@
     {
       "type": "diamondash.widgets.lvalue.LValueWidget",
       "time_range": "30d",
-      "name": "Messages Sent",
+      "name": "Latest Messages Sent",
       "target": {
         "metric_type": "account",
         "store": "mama_sms",
@@ -25,7 +25,7 @@
     {
       "type": "diamondash.widgets.lvalue.LValueWidget",
       "time_range": "30d",
-      "name": "Messages Received",
+      "name": "Latest Messages Received",
       "target": {
         "metric_type": "account",
         "store": "mama_sms",

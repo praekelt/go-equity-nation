@@ -1,6 +1,6 @@
 # Wikipedia (Production)
 
-Wikipedia over USSD.
+Wikipedia over USSD and SMS.
 
 Conversation configuration:
 
