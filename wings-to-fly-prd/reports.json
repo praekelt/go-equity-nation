@@ -1,0 +1,155 @@
+{
+  "layout": [
+    "new_row",
+    {
+      "type": "diamondash.widgets.lvalue.LValueWidget",
+      "time_range": "30d",
+      "name": "Latest Unique Numbers (SMS)",
+      "target": {
+        "metric_type": "account",
+        "store": "mama_sms",
+        "name": "prd.eneza_sms.uniques",
+        "aggregator": "max"
+      }
+    },
+    {
+      "type": "diamondash.widgets.lvalue.LValueWidget",
+      "time_range": "30d",
+      "name": "Latest Messages Sent (SMS)",
+      "target": {
+        "metric_type": "account",
+        "store": "mama_sms",
+        "name": "prd.eneza_sms.outbound",
+        "aggregator": "max"
+      }
+    },
+    {
+      "type": "diamondash.widgets.lvalue.LValueWidget",
+      "time_range": "30d",
+      "name": "Latest Messages Received (SMS)",
+      "target": {
+        "metric_type": "account",
+        "store": "mama_sms",
+        "name": "prd.eneza_sms.inbound",
+        "aggregator": "max"
+      }
+    },
+    {
+      "type": "diamondash.widgets.lvalue.LValueWidget",
+      "time_range": "30d",
+      "name": "Latest Unique Numbers (USSD)",
+      "target": {
+        "metric_type": "account",
+        "store": "mama_sms",
+        "name": "prd.eneza_ussd.uniques",
+        "aggregator": "max"
+      }
+    },
+    {
+      "type": "diamondash.widgets.lvalue.LValueWidget",
+      "time_range": "30d",
+      "name": "Latest Messages Sent (USSD)",
+      "target": {
+        "metric_type": "account",
+        "store": "mama_sms",
+        "name": "prd.eneza_ussd.outbound",
+        "aggregator": "max"
+      }
+    },
+    {
+      "type": "diamondash.widgets.lvalue.LValueWidget",
+      "time_range": "30d",
+      "name": "Latest Messages Received (USSD)",
+      "target": {
+        "metric_type": "account",
+        "store": "mama_sms",
+        "name": "prd.eneza_ussd.inbound",
+        "aggregator": "max"
+      }
+    },
+    "new_row",
+    {
+      "type": "diamondash.widgets.histogram.HistogramWidget",
+      "name": "Wings to Fly Uniques (SMS)",
+      "width": 12,
+      "time_range": "56d",
+      "bucket_size": "7d",
+      "target": {
+        "metric_type": "account",
+        "store": "mama_sms",
+        "name": "prd.eneza_sms.uniques",
+        "aggregator": "max"
+      }
+    },
+    "new_row",
+    {
+      "type": "diamondash.widgets.histogram.HistogramWidget",
+      "name": "Wings to Fly Messages Sent (SMS)",
+      "width": 12,
+      "time_range": "56d",
+      "bucket_size": "7d",
+      "target": {
+        "metric_type": "account",
+        "store": "mama_sms",
+        "name": "prd.eneza_sms.outbound",
+        "aggregator": "max"
+      }
+    },
+    "new_row",
+    {
+      "type": "diamondash.widgets.histogram.HistogramWidget",
+      "name": "Wings to Fly Messages Received (SMS)",
+      "width": 12,
+      "time_range": "56d",
+      "bucket_size": "7d",
+      "target": {
+        "metric_type": "account",
+        "store": "mama_sms",
+        "name": "prd.eneza_sms.inbound",
+        "aggregator": "max"
+      }
+    },
+    "new_row",
+    {
+      "type": "diamondash.widgets.histogram.HistogramWidget",
+      "name": "Wings to Fly Uniques (USSD)",
+      "width": 12,
+      "time_range": "56d",
+      "bucket_size": "7d",
+      "target": {
+        "metric_type": "account",
+        "store": "mama_sms",
+        "name": "prd.eneza_ussd.uniques",
+        "aggregator": "max"
+      }
+    },
+    "new_row",
+    {
+      "type": "diamondash.widgets.histogram.HistogramWidget",
+      "name": "Wings to Fly Messages Sent (USSD)",
+      "width": 12,
+      "time_range": "56d",
+      "bucket_size": "7d",
+      "target": {
+        "metric_type": "account",
+        "store": "mama_sms",
+        "name": "prd.eneza_ussd.outbound",
+        "aggregator": "max"
+      }
+    },
+    "new_row",
+    {
+      "type": "diamondash.widgets.histogram.HistogramWidget",
+      "name": "Wings to Fly Messages Received (USSD)",
+      "width": 12,
+      "time_range": "56d",
+      "bucket_size": "7d",
+      "target": {
+        "metric_type": "account",
+        "store": "mama_sms",
+        "name": "prd.eneza_ussd.inbound",
+        "aggregator": "max"
+      }
+    }
+  ]
+}
