@@ -5,6 +5,7 @@ Financial Literacy.
 Conversation configuration:
 
 * [Reports](reports.json)
+* [Reports for 2015](reports_2015.json)
 
 Raw URLs:
 
@@ -12,5 +13,5 @@ Raw URLs:
 
 Notes:
 
-* The reports need to be switched from the 2014 conversation metrics (`finlit`)
-  to the 2015 conversation metrics (`finlit_2015`).
+* There are two reports -- one for the older 2014 conversation metrics
+  (`finlit`) and one for the newer 2015 conversation metrics (`finlit_2015`).
