@@ -45,9 +45,14 @@
       "metric_prefix": "mama_sbm_ussd"
     },
     {
-      "conversation_name": "Financial Literacy",
+      "conversation_name": "Financial Literacy (2014)",
       "conversation_key": "7d265df84b464cec912c40536f281fa7",
       "metric_prefix": "finlit"
+    },
+    {
+      "conversation_name": "Financial Literacy (2015)",
+      "conversation_key": "618bda4b57b142228744e6a97bd0dfeb",
+      "metric_prefix": "finlit_2015"
     },
     {
       "conversation_name": "Wings To Fly USSD",
