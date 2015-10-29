@@ -55,6 +55,11 @@
       "metric_prefix": "finlit_2015"
     },
     {
+      "conversation_name": "Financial Literacy Tips",
+      "conversation_key": "5e50364af12c4f5a98bad6f861cb96c0",
+      "metric_prefix": "finlit_tips"
+    },
+    {
       "conversation_name": "Wings To Fly USSD",
       "conversation_key": "00f9bde384ad41e3b75c3f83f8cadd10",
       "metric_prefix": "eneza_ussd"

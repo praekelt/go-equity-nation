@@ -5,13 +5,10 @@ Financial Literacy.
 Conversation configuration:
 
 * [Reports](reports.json)
-* [Reports for 2015](reports_2015.json)
 
 Raw URLs:
 
 * Reports: [Raw](https://raw.githubusercontent.com/praekelt/go-equity-nation/develop/financial-literacy-prd/reports.json)
-* Reports for 2015: [Raw](https://raw.githubusercontent.com/praekelt/go-equity-nation/develop/financial-literacy-prd/reports_2015.json)
-
 
 Notes:
 
